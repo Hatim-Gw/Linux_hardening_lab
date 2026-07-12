@@ -23,12 +23,12 @@
 
 
 
-3. Checked the status of the firewall using **ufw status verbose**
+4. Checked the status of the firewall using **ufw status verbose**
 
 <img width="916" height="576" alt="image" src="https://github.com/user-attachments/assets/887a87ca-418a-4955-a6af-be3a8f61b023" />
 
 
-4. inspect the port from the Kali using
+5. inspect the port from the Kali using
     - nmap -p 22 [server_ip]
     - nmap -p 48222 [server ip]
       
