@@ -37,6 +37,7 @@
 
 
 6. connect remotely to ubuntu server using ssh
+   - ssh -p 48222 [username]@[server_ip]
   -<img width="1288" height="536" alt="image" src="https://github.com/user-attachments/assets/edd78cc7-b2e2-400d-913d-9533712896bf" />
 
 
