@@ -2,9 +2,9 @@
 
 ## Objective
 
-A practical, hands-on lab hardening an Ubuntu Server 26.04 LTS box across five layers: SSH configuration, firewall rules, brute-force protection, user/password policy, and system logging. Each layer was tested from a Kali Linux attacker VM to confirm the control actually works, not just that it was configured.
+A practical hands-on lab hardening an Ubuntu Server 26.04 LTS box across five layers: SSH configuration, firewall rules, brute-force protection, user/password policy, and system logging. Each layer was tested from a Kali Linux attacker VM to confirm the control actually works, not just that it was configured.
 
-The goal isn't just "apply settings from a guide" — each writeup documents what was done, how it was verified, and any problems hit along the way.
+The goal isn't just "apply settings from a guide" — each writeup documents what was done, how it was verified, and any problems hit along the way
 
 ## Environment
 
@@ -23,7 +23,6 @@ The goal isn't just "apply settings from a guide" — each writeup documents wha
 | 4 | [User Restrictions](writeups/5.user_rstrictions.md) | Root login disabled, sudo policy review, password complexity rules |
 | 5 | [Logging](writeups/6.logging.md) | rsyslog live auth monitoring, auditd file-watch rule, persistence fix after reboot |
 
-Each writeup follows the same structure: **Objective → Steps Performed → Problems Encountered**, so failures and fixes are documented alongside the working setup.
 
 ## Key Takeaways
 
