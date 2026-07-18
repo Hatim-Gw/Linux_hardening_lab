@@ -17,9 +17,9 @@ The goal isn't just "apply settings from a guide" — each writeup documents wha
 
 | # | Topic | What it covers |
 |---|---|---|
-| 1 | [SSH Hardening](writeups/1.ssh_hardening.md) | Custom port, disabled root login, backup/restore config, `ssh.socket` override issue |
-| 2 | [UFW Firewall](writeups/ufw_Practical.md) | Default-deny policy, allow-listing only the SSH port, nmap verification (open vs. filtered) |
-| 3 | [Fail2Ban](writeups/fail2ban.md) | SSH jail configuration, triggered lockout, verified ban, manual unban |
+| 1 | [SSH Hardening](writeups/1.ssh.md) | Custom port, disabled root login, backup/restore config, `ssh.socket` override issue |
+| 2 | [UFW Firewall](writeups/3.ufw_Practical.md) | Default-deny policy, allow-listing only the SSH port, nmap verification (open vs. filtered) |
+| 3 | [Fail2Ban](writeups/4.fail2ban.md) | SSH jail configuration, triggered lockout, verified ban, manual unban |
 | 4 | [User Restrictions](writeups/5.user_rstrictions.md) | Root login disabled, sudo policy review, password complexity rules |
 | 5 | [Logging](writeups/6.logging.md) | rsyslog live auth monitoring, auditd file-watch rule, persistence fix after reboot |
 
